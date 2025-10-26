@@ -17,4 +17,7 @@ Winning Sound Effect by <a href="https://pixabay.com/users/xmersounds-50703818/?
 Godot 4.5<br>
 Fully created by me.<br><br>
 
+<b>Download:</b><br>
+<a href="https://abbacchio331.itch.io/ping-pong">Itch.io</a><br><br>
+
 <img width="1142" height="636" alt="image" src="https://github.com/user-attachments/assets/8d688827-1bbc-4fd3-bf8b-14e0ff8fbcfc" />
