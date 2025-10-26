@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bsj1y75bww1ul"]
+
+[ext_resource type="Texture2D" uid="uid://yomc5qimobei" path="res://images/rocket_grey.png" id="1_exs6j"]
+[ext_resource type="Script" uid="uid://blw6wjj10miyl" path="res://scenes/grey_rocket.gd" id="1_xnwyh"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_raqis"]
+radius = 12.0
+height = 70.0
+
+[node name="Gray Rocket" type="Area2D"]
+script = ExtResource("1_xnwyh")
+
+[node name="RocketGray" type="Sprite2D" parent="."]
+texture = ExtResource("1_exs6j")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -15)
+shape = SubResource("CapsuleShape2D_raqis")

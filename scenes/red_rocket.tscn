@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bystb03dvl3gs"]
+
+[ext_resource type="Texture2D" uid="uid://cngslrc0la4ed" path="res://images/rocket_red.png" id="1_36ent"]
+[ext_resource type="Script" uid="uid://c857m666r34od" path="res://scenes/red_rocket.gd" id="1_raqis"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_raqis"]
+radius = 12.0
+height = 70.0
+
+[node name="Red Rocket" type="Area2D"]
+script = ExtResource("1_raqis")
+
+[node name="RocketRed" type="Sprite2D" parent="."]
+rotation = 3.1415927
+texture = ExtResource("1_36ent")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 15)
+shape = SubResource("CapsuleShape2D_raqis")
